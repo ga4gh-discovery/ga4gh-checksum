@@ -6,7 +6,7 @@ This registry extends the [IANA Hash Algorithm Registry](https://www.iana.org/as
 ## Specification - [Table of Hash Algorithms](https://github.com/susheel/ga4gh-hash-alg-registry/blob/master/hash-alg.csv)
 
 | ID    | Hash Name String | Value Length   | Reference                                                                                   | Status  |
-|-------|------------------|----------------|---------------------------------------------------------------------------------------------|---------|
+|:------|------------------|----------------|---------------------------------------------------------------------------------------------|---------|
 | 0     | Reserved         |                | [RFC6920](http://www.iana.org/go/rfc6920)                                                   |         |
 | 1     | sha-256          | 256 bits       | [RFC6920](http://www.iana.org/go/rfc6920)                                                   | current |
 | 2     | sha-256-128      | 128 bits       | [RFC6920](http://www.iana.org/go/rfc6920)                                                   | current |
