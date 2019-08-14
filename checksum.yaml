@@ -1,0 +1,31 @@
+info:
+  title: GA4GH Checksum
+  description: GA4GH Checksum definition.
+  version: 2019-08-14
+  authors:
+    - "GA4GH Cloud Workstream"
+    - "@susheel"
+definitions:
+  Checksum:
+    status: proposed
+    type: object
+    required: ['checksum', 'type']
+    properties:
+      checksum:
+        type: string
+        description: |
+          The hexadecimal encoded ([Base16](https://tools.ietf.org/html/rfc4648#section-8)) checksum for the data
+        example:
+          77af4d6b9913e693e8d0b4b294fa62ade6054e6b2f1ffb617ac955dd63fb0182
+      type:
+        type: string
+        description: |
+          The digest method used to create the checksum.
+          The value (e.g. `sha-256`) SHOULD be listed as `Hash Name String` in the https://github.com/ga4gh-discovery/ga4gh-hash-alg-registry/blob/master/hash-alg.csv[GA4GH Hash Algorithm Registry].
+          Other values MAY be used, as long as implementors are aware of the issues discussed in https://tools.ietf.org/html/rfc6920#section-9.4[RFC6920].
+          GA4GH may provide more explicit guidance for use of non-IANA-registered algorithms in the future.
+        example:
+          sha-256
+    used_by:
+      - GA4GH Data Repository Service
+      - GA4GH Tool Registry Service
