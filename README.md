@@ -1,4 +1,3 @@
-![](https://www.ga4gh.org/wp-content/themes/ga4gh-theme/gfx/GA-logo-horizontal-tag-RGB.svg)
 # GA4GH Discovery - Hash Algorithm Registry [![LICENCE](https://img.shields.io/github/license/susheel/ga4gh-hash-alg-registry)](https://github.com/susheel/ga4gh-hash-alg-registry/blob/master/LICENSE) 
 
 This registry extends the [IANA Hash Algorithm Registry](https://www.iana.org/assignments/named-information/named-information.xhtml#hash-alg) with hash algorithms specific to the GA4GH community requirements.
@@ -25,7 +24,8 @@ This registry extends the [IANA Hash Algorithm Registry](https://www.iana.org/as
 | 15    | crc32c           | 32 bits        | [RFC4960](https://tools.ietf.org/html/rfc4960#appendix-B)                                   | current |
 | 16    | trunc512         | 192 bits       | [GA4GH Refget](https://samtools.github.io/hts-specs/refget.html#trunc512-algorithm-details) | current |
 | 17    | sha1             | 160 bits       | [FIPS 180-4](https://dx.doi.org/10.6028/NIST.FIPS.180-4)                                    | current |
-| 18-31 | Unassigned       |                |                                                                                             |         |
+| 18    | blake2b-512      | 512 bits       | [RFC7693](https://tools.ietf.org/html/rfc7693)                                              | current |
+| 19-31 | Unassigned       |                |                                                                                             |         |
 | 32    | Reserved         |                | [RFC6920](http://www.iana.org/go/rfc6920)                                                   |         |
 | 33-63 | Unassigned       |                |                                                                                             |         |
 
