@@ -6,11 +6,11 @@ There are two ways to contribute - via issues, which are used for discussion, an
 
 ## Issues
 
-The project's [Issues Page](https://github.com/ga4gh-discovery/ga4gh-hash-alg-registry/issues) is a forum to discuss both major and minor issues related to developing the Beacon API. It also serves as the means for collaborating with the group and discussing contributions that will ultimately lead to changes to the API.
+The project's [Issues Page](https://github.com/ga4gh-discovery/ga4gh-checksum/issues) is a forum to discuss both major and minor issues related to developing the Beacon API. It also serves as the means for collaborating with the group and discussing contributions that will ultimately lead to changes to the API.
 
 ## Pull Requests
 
-The way to contribute development effort and code to the project is via GitHub pull requests. GitHub provides a nice [overview on how to create a pull request](https://help.github.com/articles/creating-a-pull-request). Pull Requests should usually be made against the [`develop` branch](https://github.com/ga4gh-discovery/ga4gh-hash-alg-registry/issues).
+The way to contribute development effort and code to the project is via GitHub pull requests. GitHub provides a nice [overview on how to create a pull request](https://help.github.com/articles/creating-a-pull-request). Pull Requests should usually be made against the [`develop` branch](https://github.com/ga4gh-discovery/ga4gh-checksum/issues).
 
 Some general rules to follow:
 
