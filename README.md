@@ -1,4 +1,5 @@
-![](https://www.ga4gh.org/wp-content/themes/ga4gh-theme/gfx/GA-logo-horizontal-tag-RGB.svg)
+![](https://img.shields.io/badge/Status-Deprecated-Red)
+
 # GA4GH Discovery - Hash Algorithm Registry [![LICENCE](https://img.shields.io/github/license/susheel/ga4gh-hash-alg-registry)](https://github.com/susheel/ga4gh-hash-alg-registry/blob/master/LICENSE) 
 
 This registry extends the [IANA Hash Algorithm Registry](https://www.iana.org/assignments/named-information/named-information.xhtml#hash-alg) with hash algorithms specific to the GA4GH community requirements.
