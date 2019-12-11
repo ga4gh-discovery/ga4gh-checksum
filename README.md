@@ -1,4 +1,4 @@
-![](https://img.shields.io/badge/Status-Deprecated-Red)
+![](https://img.shields.io/badge/Status-Deprecated-Red) Please see [GA4GH SchemaBlocks Checksum](https://github.com/ga4gh-schemablocks/sb-checksum) for more info.
 
 # GA4GH Discovery - Hash Algorithm Registry [![LICENCE](https://img.shields.io/github/license/susheel/ga4gh-hash-alg-registry)](https://github.com/susheel/ga4gh-hash-alg-registry/blob/master/LICENSE) 
 
